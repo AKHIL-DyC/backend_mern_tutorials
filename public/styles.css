@@ -1,0 +1,63 @@
+h1{
+    font-weight:800;
+    font-family:"Roboto";
+    font-size: 40px;
+    text-align: center;
+    
+}
+html{
+    background-color:#b5c99a;
+}
+form {
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 40px;
+    margin-bottom: 40px;
+  }
+  
+  input[type="text"] {
+    background-color: #748853;
+    color: whitesmoke;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    
+    
+  }
+  input[type="email"] {
+    background-color: #748853;
+    color: whitesmoke;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    
+    
+  }
+  
+  input[type="text"]:hover {
+    background-color: #9bb55f;
+  }
+  input[type=text]::placeholder{
+    color: black;
+  }
+  input[type=email]::placeholder{
+    color: black;
+  }
+  input[type="email"]:hover {
+    background-color: #9bb55f;
+  }
